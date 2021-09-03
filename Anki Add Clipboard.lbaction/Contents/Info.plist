@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.guilevi.anki.add-clipboard</string>
+	<key>CFBundleName</key>
+	<string>Add Clipboard to Anki</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Guillem León</string>
+		<key>LBEmail</key>
+		<string>guilevi2000@gmail.com</string>
+		<key>LBRequirements</key>
+		<string>Anki app and Anki Connect add-on</string>
+		<key>LBSummary</key>
+		<string>Add new note to Anki with clipboard as front content</string>
+		<key>LBTwitter</key>
+		<string>@guilevi2000</string>
+		<key>LBWebsiteURL</key>
+		<string></string>
+	</dict>
+	<key>LBRequiredApplication</key>
+	<string>net.ankiweb.dtop</string>
+	<key>LBRequirements</key>
+	<string>Anki app and Anki Connect add-on</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Back of Card</string>
+</dict>
+</plist>
