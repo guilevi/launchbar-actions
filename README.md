@@ -11,3 +11,7 @@ Add a new note to [Anki](http://ankiweb.net/) with the current clipboard content
 
 The preferences (model and deck name) are in resources/prefs.json because I did not feel like using LaunchBar's preferences system. It does not give you any UI to edit them, and it's much easier to read a JSON file than a plist.
 
+## Search on Naver Dictionary
+
+Search the given word on the [Naver Korean-English Dictionary](http://en.dict.naver.com/). As with the regular site search, it doesn't matter if you're searching from Korean or English.
+
