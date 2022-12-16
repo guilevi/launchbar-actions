@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.guilevi.transfersh</string>
+	<key>CFBundleName</key>
+	<string>Upload to Transfer.SH</string>
+	<key>LBArgument</key>
+	<string>A file</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBArgument</key>
+		<string>A file</string>
+		<key>LBAuthor</key>
+		<string>guilevi</string>
+		<key>LBEmail</key>
+		<string>guilevi2000@gmail.com</string>
+		<key>LBSummary</key>
+		<string>Upload a file to transfer.sh</string>
+		<key>LBTwitter</key>
+		<string></string>
+		<key>LBWebsiteURL</key>
+		<string></string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>path</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>string</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
